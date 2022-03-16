@@ -1,0 +1,293 @@
+
+
+	/*
+	WHAT IS THIS FILE?
+	
+	This file contains all the simple style properties, such as colours, fonts
+	and backgrounds. Edit this file to customise the look of your content. 
+	If you want to change the layout styles (widths, heights, positions)
+	see advanced.css. 
+	*/
+
+
+
+
+
+	/*
+	|--------------------------------------------------------------------------
+	| General Text Formatting
+	|--------------------------------------------------------------------------
+	
+	 Specify styles for general text formatting here.
+	
+	*/
+	
+	html, body {
+		font-size: 1em;
+		background: #f6f6f6;
+		color: #000000;
+	}
+	
+	p {
+  	color: #000;
+  	background: #fff;
+	}
+	
+	
+	
+
+
+
+
+
+
+	/*
+	|--------------------------------------------------------------------------
+	| Page Wrapper
+	|--------------------------------------------------------------------------
+	
+	This controls the styles for the wrapper div that
+	contains all page elements, ie:
+	<div id="wrapper">
+	
+	*/
+	
+	#wrapper {
+		background: #fff;
+		color: #000000;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*
+	|--------------------------------------------------------------------------
+	| Page Links
+	|--------------------------------------------------------------------------
+	
+  	The following styles can be used to control the appearence 
+  	of links that appear in the page, eg. 
+  	<a href="http://unisa.edu.au">UniSA Website</a>
+	
+	*/
+	
+	a:link {
+  
+  }
+  
+  a:visited {
+  
+  }
+  
+  a:hover {
+  
+  }
+  
+  a:active {
+  
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*
+	|--------------------------------------------------------------------------
+	| Header Colours
+	|--------------------------------------------------------------------------
+	*/
+
+	#header {	
+		
+			/*  
+			Colours for <div id="header">
+			See advanced.css for layout and size properties
+			*/
+		
+		background: #ffffff;
+		color: #000;
+		border-top: solid 5px #000;
+	}
+	
+	#header img {
+  	/* Styles for the image that appears inside the header */
+  	width: 100%;
+  	height: auto;
+  	display: block;
+	}	
+
+	#nav {
+	
+			/*  
+			Colours for <ul id="nav"> 
+			See advanced.css for layout and size properties
+			*/
+	
+		background: #000000;
+		color: #fff;
+		font-size: 1em;
+	}
+	
+	
+	
+	
+	
+
+
+
+	/*
+	|--------------------------------------------------------------------------
+	| Top Navigatin Links
+	|--------------------------------------------------------------------------
+
+	TOP NAVIGATION LINKS
+	The following styles control the appearence 
+	of the top navigation links, eg. 
+	<a class="top-link" href="default.htm">Home</a>
+
+	*/
+
+	a.top-link {
+		/* 
+		these styles will apply to ALL links (:link, :visited, :hover and :active) unless overridden
+		*/
+		display: block;
+		padding: 1em 1.5em 1em 1.5em;
+		margin: 0;
+		background: #000000;
+		color: #fff;
+		font-size: 1em;
+	}
+
+	.top-link:link {
+		/* styles for normal, unvisited links can be set here */
+		/* these styles will override the defaults set for .top-link above */
+		text-decoration: none;
+	}
+	
+	.top-link:visited {  
+		/* styles for links once visited can be changed here */
+		/* these styles will override the defaults set for .top-link above */
+		text-decoration: none;
+	}
+	
+	.top-link:hover { 
+		/* styles for top links when a user hovers over it can be changed here */
+		text-decoration: underline; 
+	}
+	
+	.top-link:active {  
+		/* Styles for when the link is being clicked can be changed here */
+	}
+	
+	.top-link.selected:link, .top-link.selected:visited {
+	
+		/* Sets the style of a link that has been selected (ie. has a class of selected)
+		   for example (note the additional class "selected"):
+			<a class="top-link selected" href="content.htm">Content Page</a>
+		*/
+    background: #f6f6f6;
+    color: #000000;
+		cursor: default;
+		font-weight: bold;
+	}
+	
+	
+	
+	
+	
+	
+	
+	/*
+	|--------------------------------------------------------------------------
+	| Footer
+	|--------------------------------------------------------------------------
+
+	Change these if you want your footer links to have a 
+	different style to other links
+
+	*/
+	
+
+	#footer { 
+	
+		/* 
+		colours for text within the 
+		footer division, ie <p id="footer"> 
+		*/
+		
+		color: #2D2D2D;
+		background-color: #f6f6f6;
+		text-align: center;
+	}
+	
+	#footer a:link {
+		background: #f6f6f6;
+		color: #07087a;
+	}
+	
+	#footer a:visited {
+		background: #f6f6f6;
+		color: #07087a;
+	}
+	
+	#footer a:hover {
+		background: #f6f6f6;
+		color: #07087a;
+	}
+	
+	#footer a:active {
+		background: #f6f6f6;
+		color: #000552;
+	}
+	
+
+
+
+
+
+
+
+
+	/*
+	|--------------------------------------------------------------------------
+	| Widget Box Colours
+	|--------------------------------------------------------------------------
+	
+	Colour styles for widget boxes that appear on the right side of the homepage
+	ie <li class="widget">
+	
+	*/
+	
+	.widget {
+		background: #f6f6f6;
+		color: #000000;
+	}
+	
+	.widget-heading {
+		color: #000000;
+		font-weight: bold;
+		background: #f6f6f6;
+		border-top: solid .3em #000000;
+	}
+	
+	.widget p { 
+  	/* styles for all paragraphs within the .widget box */
+  	padding: 0;
+  	background: #f6f6f6;
+	}
+	
+	
+	
+
+	
+	
